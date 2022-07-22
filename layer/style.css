@@ -39,24 +39,23 @@ body {
   color: #333
 }
 
-a {
+button {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 3px;
   background-color: #eee;
-  font-size: xx-large;
 }
 
-a:hover {
+button:hover {
   background-color: #8c8c8c;
   cursor: pointer;
 }
 
-a:focus {
+button:focus {
   outline: none;
 }
 
-a:active {
+button:active {
   background-color: #ddd;
   color: #000;
   border: 1px solid #888;
